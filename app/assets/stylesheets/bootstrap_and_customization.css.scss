@@ -1,6 +1,13 @@
-$body-bg: #bdc3c7;
-$navbar-default-bg: #2c3e50;
-$navbar-default-link-color: white;
-$brand-primary: #2c3e50;
+@import url(https://fonts.googleapis.com/css?family=Lobster|Merriweather:400,700);
+
+$body-bg: 										#bdc3c7;
+$font-family-sans-serif:			'Lobster', 'Helvetica Neue', Arial, sans-serif;
+$navbar-default-bg: 					#2c3e50;
+$navbar-default-link-color: 	white;
+$brand-primary: 							#2c3e50;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
